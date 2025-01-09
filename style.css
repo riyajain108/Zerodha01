@@ -21,7 +21,7 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 8vh;
     border-bottom: 2px solid #f2f2f2;
     width: 100%;
@@ -135,9 +135,7 @@ gap: 2vw;
     align-items: center;
     justify-content: space-between;
     padding: 0 8vw;
-    gap:20px;
-
-    
+    gap:20px;  
 }
 
 .pricing-left {   
@@ -149,19 +147,18 @@ margin-bottom: 10px;
 
 }
 
-
-}
 .pricing-dec{
     margin-top: 24px; 
     line-height: 25px;
     gap: 40px;
+    height: 15vh;
 }
 .pricing-link a{
     color: #387ed1;
-    font-weight: 500;
+    font-weight: 600;
     text-decoration: none;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 50px;
     
 }
 
@@ -197,74 +194,57 @@ margin-bottom: 10px;
     margin-left: -20px;
 }
 
-  /* footer */
+/* pricing end */
 
-.footer {
+
+/* varsity stared */
+
+.varsity-block{
+    padding: 4vh 10vw;
     display: flex;
     justify-content: space-between;
-    padding: 0 8vw;
-    width: 100%;
-    background-color: #fbfbfb;
-    padding-top: 8vh;
-}
-
-.footer-1 {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.footer-1 ul {
-    display: flex;
-    list-style: none;
-    gap: 2vw;
-}
-.footer-1 ul li a {
-    color: #666;
-}
-
-.var-main{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 8vw;
-    
-}
-}
-.varsity-right {
-    display: flex;
-    flex-direction: column;
-    gap:20px;
-    width: 28vw;
-    border: 2px solid green;
-}
-.var-left img{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    padding:20px 0;
-    width: 300px;
-    border: 2px solid red;
-    /* height: 40vh; */
-    margin-left: 40px;
-    margin-top: 60px;
-}
-
-.var-heading{
-    color: #424242;
-    margin-right: 20px;
-    margin-top:40px;
-    border: 2px solid green;
-    padding-left: 200px;
-}
-.var-container {
-    margin-right: 20px;
-    gap: 10px;
     align-items: center;
-    display: block;
+    gap: 100px;
+}
+.varsity-block img{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.varsity-text p{
+    margin-top: 20px;
+}
+.varsity-text a{
+    color: #387ed1;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.account-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 90px;
     
 }
+.account-block button{
+padding: 10px 30px;
+margin-top: 20px;
+font-size: 20px;
+color: #fff;
+background-color: #387ed1;
+border: none;
+border-radius: 3px;
+}
+.account-block button:hover{
+background-color: #222;
+}
 
+/* varsity end  */
+
+/* account start */
 .account{
 
     display: flex;
@@ -290,3 +270,80 @@ margin-bottom: 10px;
 .account button:hover{
     background-color: #222;
 }
+/* account end */
+
+ /* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8vw;
+    width: 100%;
+    /* height: 400px; */
+    background-color: #fbfbfb;
+    padding-top: 13vh;
+}
+
+.footer-1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.footer-1 ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    height: 5vh;
+    width: 5vw;
+}
+.footer-1 ul li a {
+    color: #666;
+}
+
+.footer-logo{
+    height: 3vh;
+    width: 12vw;
+}
+
+.footer-2-ul a{
+    text-decoration: none;
+    color: #666;
+    line-height: 1.5;
+}
+
+.footer-2-ul{
+    list-style-type: none;
+}
+.company{
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #222;
+    
+}
+.footer-last-text{
+    padding: 4vh 10vw;
+    font-size: 11px;
+    color: rgb(155, 155, 155);
+    background-color: #fbfbfb;
+}
+.ft a{
+    text-decoration: none;
+    color: #387ed1;
+}
+.ft a:hover{
+    color: #424242;
+}
+.footer-final-text{
+    display: flex;
+    font-size: 12px;
+    color: rgb(155, 155, 155);
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+
