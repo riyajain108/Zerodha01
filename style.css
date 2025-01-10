@@ -85,16 +85,21 @@ gap: 2vw;
 .extra-info-left {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
     width: 28vw;
 
 }
-.info-left-heading {
+.info-left-heading h2{
+    font: size 50px;
+    color:#222;
+    margin-bottom: 0px;
+}
+/* .info-left-heading{
     font: size 50px;
     color:#424242;
-    margin-bottom: 40px;
+    margin-bottom: 5px; */
 
-}
+
 .info-container-heading {
     color: #424242;
     font-size: 20px;
